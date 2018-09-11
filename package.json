@@ -1,0 +1,27 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/mocha.js",
+    "cover": "istanbul cover _mocha --reporter -- test/mocha.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wenmengyan/testing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wenmengyan/testing/issues"
+  },
+  "homepage": "https://github.com/wenmengyan/testing#readme",
+  "dependencies": {
+    "chai": "^4.1.2"
+  },
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "mocha": "^5.2.0"
+  }
+}
